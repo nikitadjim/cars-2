@@ -1,0 +1,91 @@
+
+body{
+    color: black;
+    font-family: 'ProximanovaLight';
+    font-size: 1.5vw;
+}
+
+header{
+    z-index: 2;
+    position: fixed;
+    
+    font-family: 'ProximanovaRegular';
+
+    height: 8.5vw;
+    width: 100%;
+    box-shadow: 0vw 0.1vw 0vw rgba(182, 182, 182, 0.476);
+
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+header ul {
+    display: flex;
+    justify-content: end;
+    margin-top: 3.2vw;
+}
+
+.header-item {
+    color: black;
+    padding-right: 4vw;
+    transition: 0.5s;
+}
+
+.header-item a {
+    transition: 0.5s;
+    font-size: 1.5vw;
+    font-weight: 800;
+    
+}
+
+.header-item a:hover{
+    font-size: 1.7vw;
+    transition: 0.5s;
+    color: red;
+}
+
+
+.logo-text{
+    position: absolute;
+    font-family: 'Deftone';
+    font-size: 7vw;
+    top: 1vw;
+    left: 5vw;
+    color: rgb(191, 6, 6);
+    transition: 0.5s;
+}
+
+.logo-text:hover {
+    font-size: 7.5vw;
+    top: 0.5vw;
+    left: 5.5vw;
+    transition: 0.5s;
+    color: rgb(255, 0, 0);
+}
+
+
+#out_btn {
+    color: rgb(255, 0, 0);
+}
+
+#out_btn:hover{
+    color: rgb(85, 4, 4);
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    position: relative;
+    height: 15vw;
+    width: 100%;
+}

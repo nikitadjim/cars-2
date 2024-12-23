@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header_n_footer.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/test.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <h1 class="logo-text">Cars</h1>
+        </a>
+        <ul>
+            <li class="header-item"><a href="./gallery.html">Галерея</a></li>
+            <li class="header-item"><a href="./search.html">Поиск</a></li>
+            <li class="header-item"><a href="./test.html">Тecт</a></li>
+            <li class="header-item"><a href="./profile.html" id="header_name"></a></li>
+            <li class="header-item"><button id="out_btn">ВЫХОД</button></li>
+
+
+        </ul>
+    </header>
+
+    <main>
+        <button id="btn_next">Дальше</button>
+
+
+        <form name="test_form" novalidate class="test_form">
+            <div class="card">
+                <div class="radio">
+                    <p>1) В каком городе застрял Маккуин ?</p>
+                    <input type="radio" name="v1" value="1"><label id="v1">Радиатор-Спрингс</label>
+                    <br>
+                    <input type="radio" name="v1">Лос-Анджелес
+                    <br>
+                    <input type="radio" name="v1">Воронеж
+                    <br>
+                    <input type="radio" name="v1">Токио
+                </div>
+
+                <div class="text">
+                    <p>2) Кто это?</p>
+                    <img src="./img/doc.png" alt="">
+                    <br>
+                    <input type="text" name="v5" required pattern="[дД]ок [хХ]адсон">
+                    <br>
+                    <label id="v5"></label>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="radio">
+                    <p>3) Кем работает Мэтр?</p>
+                    <input type="radio" name="v2" >Почтальоном
+                    <br>
+                    <input type="radio" name="v2">Полицейским
+                    <br>
+                    <input type="radio" name="v2" value="1"><label id="v2">Эвакуаторщиком</label>
+                    <br>
+                    <input type="radio" name="v2">Священником
+                </div>
+            
+                <div class="text">
+                    <p>4) Кто это?</p>
+                    <img src="./img/luigi.png" alt="">
+                    <br>
+                    <input type="text" name="v6" required pattern="[лЛ]уиджи">
+                    <br>
+                    <label id="v6"></label>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="radio">
+                    <p>5) Название главной гонки в фильме?</p>
+                    <input type="radio" name="v3">24 часа ле мана
+                    <br>
+                    <input type="radio" name="v3">Турбо-Кубок
+                    <br>
+                    <input type="radio" name="v3">Гран-При
+                    <br>
+                    <input type="radio" name="v3" value="1"><label id="v3">Кубок Поршня</label>
+                </div>
+
+                <div class="text">
+                    <p>6) Кто это?</p>
+                    <img src="./img/mq.png" alt="">
+                    <br>
+                    <input type="text" name="v7" required pattern="[мМ]аккуин">
+                    <br>
+                    <label id="v7"></label>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="radio">
+                    <p>7) Номер Маккуин?</p>
+                    <input type="radio" name="v4" value="1"><label id="v4">95</label>
+                    <br>
+                    <input type="radio" name="v4">86
+                    <br>
+                    <input type="radio" name="v4">1
+                    <br>
+                    <input type="radio" name="v4">93
+                </div>
+            
+                <div class="text">
+                    <p>8) Кто это?</p>
+                    <img src="./img/gvido.png" alt="">
+                    <br>
+                    <input type="text" name="v8" required pattern="[гГ]видо">
+                    <br>
+                    <label id="v8"></label>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <button class="sub">СДАТЬ</button>
+                <h1 class="result_text">Оценка</h1>
+                <h1 id="result" class="result">0</h1>
+            </div>
+            
+        </form>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./js/header.js"></script>
+    <script src="./js/test.js"></script>
+
+
+</body>
+
+</html>

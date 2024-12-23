@@ -1,0 +1,8 @@
+@import "./reset.css";
+@import "./font.css";
+@import "./header_n_footer.css";
+@import "./login.css";
+
+body{
+    font-family: 'ProximanovaRegular';
+}

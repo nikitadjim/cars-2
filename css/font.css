@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'ProximanovaRegular';
+    src: url("../font/proximanova_regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Deftone';
+    src: url("../font/deftone.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ProximanovaLight';
+    src: url("../font/proximanova_light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

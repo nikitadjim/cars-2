@@ -1,0 +1,62 @@
+
+.login-box {
+    opacity: 0;
+    z-index: 1;
+    position: fixed;
+    justify-items: center;
+
+
+    height: 100%;
+    width: 0;
+
+    background-color: rgba(255, 255, 255, 0.357);
+    backdrop-filter: blur(3vw);
+
+    font-family: 'ProximanovaLight';
+}
+
+.login-form{
+    position: relative;
+    top: 20vw;
+    background-color: rgb(197, 197, 197);
+    border-radius: 2vw;
+    width: 40vw;
+    height: 25svw;
+
+    padding: 5vw;
+    padding-top: 3vw;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-form div{
+    color: red;
+}
+
+.login-form input{
+    padding: 1vw;
+    background-color: white;
+    margin-top: 1vw;
+}
+
+.login-form button{
+    position: absolute;
+    
+    top: 22vw;
+    left: 15vw;
+
+    width: 10vw;
+
+    background-color: rgb(191, 6, 6);
+    color: white;
+    font-family: 'ProximanovaRegular';
+}
+
+.login-form button:hover {
+
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(191, 6, 6);
+}

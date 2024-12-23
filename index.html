@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#!"><h1 class="logo-text">Cars</h1></a>
+        <ul>
+            <li class="header-item"><a href="./gallery.html">Галерея</a></li>
+            <li class="header-item"><a href="./search.html">Поиск</a></li>
+            <li class="header-item"><a href="./test.html">Тecт</a></li>
+            <li class="header-item"><a href="./profile.html" id="header_name"></a></li>
+            <li class="header-item"><button id="out_btn">ВЫХОД</button></li>
+        </ul>
+
+    </header>
+
+    <div class="login-box">
+        <form name="login_form" novalidate class="login-form">
+            
+            <input type="text" id="input_name" name="input_name" placeholder="ИМЯ" pattern="[А-Я][а-я]+" required>
+            <div id="name_error"></div>
+            <input type="date" id="input_bday" name="input_bday" min="1924-12-01" max="2025-01-01" required>
+            <div id="bday_error"></div>
+            <p><input type="radio" name="input_gender" class="input_gender" value="муж" >муж</p>
+            <p><input type="radio" name="input_gender" class="input_gender" value="жен" checked>жен</p>
+            <button id="login_button" type="submit">Войти</button>
+        </form>
+    
+    </div>
+
+    <main>
+
+        <div class="title">
+            <img src="./img/logo.png" alt="" class="logo">
+            <div class="black"></div>
+        </div>
+
+        <div class="text">
+            <h1>Жизнь — это шоссе</h1>
+            <p>
+                Начинающий чемпион гонок Молния Маккуин стремительно движется к успеху, славе и всему, о чем он когда-либо мечтал, пока
+                не делает неожиданный крюк на пыльном шоссе 66. Его стремление иметь все и сразу рушится, когда забытое временем
+                сообщество маленького городка показывает Маккуину, чего ему не хватало в его бурной жизни.
+
+            </p>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./js/check_date.js"></script>
+    <script src="./js/header.js"></script>
+
+</body>
+</html>
